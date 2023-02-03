@@ -1,0 +1,17 @@
+//
+// Quill
+//
+
+.ql-container {
+  font-family: sans-serif;
+}
+
+.ql-editor {
+  color: black;
+  min-height: 18em;
+  background-color: $input-bg;
+}
+
+.ql-editor strong {
+  font-weight: bold;
+}

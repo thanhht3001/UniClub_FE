@@ -1,0 +1,21 @@
+.carousel-control-prev-icon {
+    background-image: url("https://cdn2.iconfinder.com/data/icons/smighty-selected-inverted/100/Smighty-alternates-07-512.png");
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("https://cdn2.iconfinder.com/data/icons/smighty-selected-inverted/100/Smighty-alternates-08-512.png");
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-inner {
+    margin: auto;
+    max-width: 1200px;
+    max-height: 500px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}

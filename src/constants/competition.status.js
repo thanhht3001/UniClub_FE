@@ -1,0 +1,15 @@
+export const CompetitionStatus = [
+  'Mở đăng ký',
+  'Sắp diễn ra',
+  'Bắt đầu',
+  'Đang diễn ra',
+  'Đã xong',
+  'Công bố',
+  'Bản thảo',
+  'Chờ duyệt',
+  'Đã duyệt',
+  'Tạm hoãn',
+  'Kết thúc',
+  'Hoàn thành',
+  'Hủy bỏ',
+];
