@@ -88,7 +88,7 @@ export default function CompetitionPublic(props) {
 //     window.addEventListener('scroll', loadMore);
 //     return function cleanup() {
 //       window.removeEventListener('scroll', loadMore);
-    };
+//     };
   });
 
   useEffect(() => {
