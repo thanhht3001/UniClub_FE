@@ -99,7 +99,7 @@ export default function CompetitionPublic(props) {
     <>
       <CompetitionPublicNavbar />
       <CompetitionPublicHeader competitionCarol={competitionCarol} />
-      <CompetitionPublicBody competitionFavorite={competitionFavorite} competitionNew={competitionNew} loadMore={loadMore}  />
+      <CompetitionPublicBody competitionFavorite={competitionFavorite} competitionNew={competitionNew} loadMore={loadMore} />
       <AdminFooter />
     </>
   );
