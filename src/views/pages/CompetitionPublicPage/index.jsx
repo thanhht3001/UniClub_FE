@@ -78,7 +78,7 @@ export default function CompetitionPublic(props) {
       loadDataListCompetitionNew();
     }
 
-//     const loadMore = () => {
+    const loadMore = () => {
 //       if (window.innerHeight + document.documentElement.scrollTop === document.scrollingElement.scrollHeight) {
 //         console.log('load');
 //         loadDataListCompetitionNew();
@@ -88,7 +88,7 @@ export default function CompetitionPublic(props) {
 //     window.addEventListener('scroll', loadMore);
 //     return function cleanup() {
 //       window.removeEventListener('scroll', loadMore);
-//     };
+    };
   });
 
   useEffect(() => {
