@@ -78,17 +78,17 @@ export default function CompetitionPublic(props) {
       loadDataListCompetitionNew();
     }
 
-    const loadMore = () => {
-      if (window.innerHeight + document.documentElement.scrollTop === document.scrollingElement.scrollHeight) {
-        console.log('load');
-        loadDataListCompetitionNew();
-      }
-    };
+//     const loadMore = () => {
+//       if (window.innerHeight + document.documentElement.scrollTop === document.scrollingElement.scrollHeight) {
+//         console.log('load');
+//         loadDataListCompetitionNew();
+//       }
+//     };
 
-    window.addEventListener('scroll', loadMore);
-    return function cleanup() {
-      window.removeEventListener('scroll', loadMore);
-    };
+//     window.addEventListener('scroll', loadMore);
+//     return function cleanup() {
+//       window.removeEventListener('scroll', loadMore);
+//     };
   });
 
   useEffect(() => {
