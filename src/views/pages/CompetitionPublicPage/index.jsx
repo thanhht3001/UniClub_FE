@@ -79,11 +79,11 @@ export default function CompetitionPublic(props) {
     }
 
     const loadMore = () => {
-//       if (window.innerHeight + document.documentElement.scrollTop === document.scrollingElement.scrollHeight) {
-//         console.log('load');
-//         loadDataListCompetitionNew();
-//       }
-//     };
+      if (window.innerHeight + document.documentElement.scrollTop === document.scrollingElement.scrollHeight) {
+        console.log('load');
+        loadDataListCompetitionNew();
+      }
+    };
 
 //     window.addEventListener('scroll', loadMore);
 //     return function cleanup() {
