@@ -78,12 +78,12 @@ export default function CompetitionPublic(props) {
       loadDataListCompetitionNew();
     }
 
-    const loadMore = () => {
-      if (window.innerHeight + document.documentElement.scrollTop === document.scrollingElement.scrollHeight) {
-        console.log('load');
-        loadDataListCompetitionNew();
-      }
-    };
+//     const loadMore = () => {
+//       if (window.innerHeight + document.documentElement.scrollTop === document.scrollingElement.scrollHeight) {
+//         console.log('load');
+//         loadDataListCompetitionNew();
+//       }
+//     };
 
 //     window.addEventListener('scroll', loadMore);
 //     return function cleanup() {
@@ -99,7 +99,7 @@ export default function CompetitionPublic(props) {
     <>
       <CompetitionPublicNavbar />
       <CompetitionPublicHeader competitionCarol={competitionCarol} />
-      <CompetitionPublicBody competitionFavorite={competitionFavorite} competitionNew={competitionNew} loadMore={loadMore} />
+      <CompetitionPublicBody competitionFavorite={competitionFavorite} competitionNew={competitionNew}  />
       <AdminFooter />
     </>
   );
